@@ -30,7 +30,8 @@ Although the API itself is intentionally minimal, the main purpose of the projec
 
 ## Repository Structure
 
-```text
+```
+
 .
 ├── app.py
 ├── requirements.txt
@@ -44,7 +45,9 @@ Although the API itself is intentionally minimal, the main purpose of the projec
 │       └── templates/
 └── README.md
 
-# Application Endpoints
+```
+
+## Application Endpoints
 
 The Flask API exposes two basic routes:
 
@@ -60,7 +63,8 @@ Example response:
   "pressure_drop": 12.5,
   "status": "success"
 }
-What This Project Demonstrates
+
+## What This Project Demonstrates
 1. Local Python API Development
 
 A simple Flask-based API was first created and validated locally.
@@ -121,6 +125,7 @@ kubectl get services
 Access via port-forward:
 
 kubectl port-forward service/cfd-predictor-service 8080:80
+
 
 Then open:
 
@@ -189,7 +194,7 @@ Then open:
 
 https://localhost:8090
 
-Potential Extensions
+## Potential Extensions
 
 Possible future improvements include:
 
