@@ -44,7 +44,7 @@ Although the API itself is intentionally minimal, the main purpose of the projec
 │       └── templates/
 └── README.md
 
-Application Endpoints
+# Application Endpoints
 
 The Flask API exposes two basic routes:
 
