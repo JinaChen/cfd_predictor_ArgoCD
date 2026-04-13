@@ -1,7 +1,5 @@
 # CFD Predictor Deployment Demo
 
-# Python API Deployment with Docker, Kubernetes, Helm, and Argo CD
-
 This repository demonstrates an end-to-end deployment workflow for a simple Python-based prediction API, progressing from local development to containerisation, Kubernetes orchestration, Helm templating, and GitOps-style deployment with Argo CD.
 
 The project was built as a hands-on engineering exercise to demonstrate practical familiarity with:
